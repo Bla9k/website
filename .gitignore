@@ -1,7 +1,22 @@
-/node_modules
-/package-lock.json
-/.idea
-/build
-/.svelte-kit
-*.Identifier
-*.mjs
+# Ren'Py generated files
+*.rpyc
+*.rpymc
+*.rpa
+log.txt
+traceback.txt
+errors.txt
+
+# Local save/build/export output
+/saves/
+/builds/
+/exports/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+!/builds/.gitkeep
+!/exports/.gitkeep
+!/saves/.gitkeep
